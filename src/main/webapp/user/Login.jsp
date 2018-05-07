@@ -7,7 +7,10 @@
 <title>Insert title here</title>
 </head>
 <body>
-<h2>Hello World!</h2>
-<a href="user/Login.jsp" >登录</a>
+	<form action="login" method="post">
+		用户名:<input type="text" name="username" />
+		密码：<input type="password" name="password" />
+		<input type="submit" value="登录" />
+	</form>
 </body>
 </html>
